@@ -1,0 +1,47 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 350px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #000000;
+}
+
+.bg-1 {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.bg-2 {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.btn {
+  border: 1px solid #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
